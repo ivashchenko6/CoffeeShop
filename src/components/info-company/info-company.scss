@@ -1,0 +1,55 @@
+.company-info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    .info-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+
+        color: #000000;
+
+    }
+
+
+    // .divider-beans {
+    //     display: flex;
+    //     align-items: center;
+    //     width: 200px;
+    //     justify-content: space-between;
+    //     margin-top: 20px;
+    //     margin-bottom: 40px;
+
+    //     .divider {
+    //         width: 60px;
+    //         height: 0px;
+    //         border: 1px solid #000000;
+    //     }
+
+
+    //     img {
+    //         width: 29.3px;
+    //         height: 29.3px;
+
+    //     }
+    // }
+
+
+    .company_descr {
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #000000;
+        padding-bottom: 101px;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,175 @@
+@import '../../variables.scss';
+
+header.header_our-coffee {
+    background: url('../../components/img/bg/bg-our-coffee.png');
+    height: 260px;
+
+    .our-coffee-title {
+
+
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 60px;
+    }
+}
+
+
+
+section.about-beans {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    // width: 550px;
+    .wrapper_information {
+        display: flex;
+        height: 355px;
+        // width: 550px;
+        .person_img {
+            display: block;
+            width: 272px;
+            // height: 355px;
+            margin-right: 79px;
+            filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+        }
+        
+
+        .information_block{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .information_title {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 35px;
+
+                color: #000000;
+            }
+
+            .information_descr {
+                text-align: center;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+            
+
+                color: #000000;
+
+            }
+        }
+    }
+}
+
+
+.line {
+    
+    width: 240px;
+    height: 0px;
+
+    border: 1px solid #000000;
+    margin:0 auto;
+    margin-top: 60px;
+}
+
+
+section.filter {
+    
+
+    .wrapper_filter {
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        margin:0 auto;
+        margin-top: 64px;
+    }
+}
+
+
+
+section.goods-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 61px;
+    .goods_section_wrapper {
+        
+        width: 802px;
+        .goods_list {
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: wrap;
+
+            height: 580px;
+
+        }
+    }
+
+
+}
+
+
+section.about_current-coffee {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0 60px 0;
+    .about_current_coffee-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 900px;
+
+        .descr_img {
+            
+        }
+        
+        
+
+
+        .descr_text_block {
+            
+            .descr_title_parent {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .descr_title {
+    
+                }
+            }
+
+
+            
+
+            .descr_country {
+                @extend %description;
+                margin-top: 26px;
+            }
+
+            .description_text {
+                @extend %description;
+                text-align: left;
+                margin: 16px 0;
+            }
+            .descr_price {
+
+                .span-price {
+                    font-weight: 700;
+                    font-size: 20px;
+                }
+            }
+
+            span.bold-span {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+
+
+
+footer.footer_our-coffee {
+    margin-top: 60px;
+}

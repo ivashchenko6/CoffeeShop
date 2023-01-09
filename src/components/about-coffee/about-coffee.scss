@@ -1,0 +1,82 @@
+@import '../../variables.scss';
+
+.about-coffee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    padding-top: 111px;
+    .coffee-title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+
+        color: #FFFFFF;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .divider-beans {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        .divider {
+            width: 60px;
+            height: 0px;
+        
+            border: 1px solid #FFFFFF;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        }
+        
+        img {
+            width: 29.3px;
+            height: 29.3px;
+            
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+
+        
+    }
+    .coffee-descr {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+
+        color: #FFFFFF;
+        margin: 35px 0  20px;
+    }
+
+    .coffee-question {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px; 
+        color: #FFFFFF; 
+        
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .more {
+        @extend %centered;
+        width: 120px;
+        height: 30px;
+        margin-top:18px;
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 3px;
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        color: #FFFFFF;
+
+        
+
+        
+
+    }
+    
+}
+
+

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+
+* {
+    font-family: 'Merienda';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 700px;
+    
+    
+    background: url('../img/bg/bg-desk.png')  center / 100% no-repeat  ;
+    
+}
+
+
+
+.best-goods {
+    
+    background: url('../img/bg/bg-paper.png') center/ 100% no-repeat;
+    // background-repeat: no-repeat;
+
+    height: 500px;
+}
+
+
+footer {
+    height: 150px;
+}

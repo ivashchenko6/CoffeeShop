@@ -1,0 +1,97 @@
+header.header_pleasure {
+    height: 260px;
+    background: url('../../components/img/bg/bg_pleasure.png')  center / 100% no-repeat;
+
+
+
+
+    .pleasure_title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 58px;
+
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+section.about_our-goods {
+
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    .pleasure-wrapper {
+
+        display: flex;
+        justify-content: space-between;
+        width: 710px;
+
+        
+
+        .pleasure_text_block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .pleasure_subtitle {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 35px;
+
+                color: #000000;
+            }
+
+            .pleasure_descr {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+
+                color: #000000;
+
+            }
+        }
+    }
+
+
+
+}
+
+
+
+.pleasure_divider {
+    width: 240px;
+    height: 0px;
+
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+
+
+section.pleasure_goods {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    .pleasure_goods-wrapper {
+
+        width: 802px;
+        .pleasure-list {
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: wrap;
+            height: 580px;
+        }
+    }
+
+}
+
+footer.footer_pleasure {
+
+    margin-top: 60px;
+}

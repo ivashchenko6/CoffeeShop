@@ -1,0 +1,21 @@
+.header_nav {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    padding: 30px 0 0 149px;
+    .header_logo {
+        width: 108px;
+        height: 35px;
+    }
+
+    .header_ul {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        padding-top: 5px;
+        width: 257px;
+        
+        
+        
+    }
+}
